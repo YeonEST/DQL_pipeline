@@ -1,0 +1,22 @@
+DQL_pipeline/
+    ├── app.py                   # 메인 앱 진입점
+    ├── requirements.txt         # 필요한 패키지 정의
+    ├── .env                     # 환경 변수 설정
+    ├── output/                  # 출력 디렉토리
+    │   └── md/                  # 마크다운 출력 저장 디렉토리
+    ├── services/                # 서비스 패키지
+    │   ├── pdf_service.py       # PDF 변환 서비스 (docling 사용)
+    │   ├── chunking_service.py  # 마크다운 청킹 서비스
+    │   ├── embedding_service.py # 임베딩 생성 서비스
+    │   ├── reranking_service.py # 리랭킹 서비스
+    │   ├── lm_service.py        # LM Studio 연동 서비스
+    │   └── qdrant_service.py    # Qdrant 관련 서비스
+    ├── ui/                      # UI 패키지
+    │   ├── pdf_to_md_tab.py     # PDF → Markdown 탭
+    │   ├── md_upload_tab.py     # Markdown → 임베딩 탭
+    │   ├── history_tab.py       # 처리 이력 탭
+    │   └── ...                  # 기타 UI 모듈
+    └── utils/                   # 유틸리티 패키지
+        ├── config.py            # 환경 설정 유틸리티
+        ├── logging.py           # 로깅 유틸리티
+        └── model_utils.py       # 모델 관련 유틸리티

@@ -1,0 +1,84 @@
+{
+  "data": {
+    "data": [
+      {
+        "id": "text-embedding-nomic-embed-text-v1.5",
+        "object": "model",
+        "owned_by": "organization_owner"
+      },
+      {
+        "id": "gemma-3-12b-it",
+        "object": "model",
+        "owned_by": "organization_owner"
+      },
+      {
+        "id": "aya-expanse-8b",
+        "object": "model",
+        "owned_by": "organization_owner"
+      },
+      {
+        "id": "reka-flash-3-21b-reasoning-uncensored-max-neo-imatrix",
+        "object": "model",
+        "owned_by": "organization_owner"
+      },
+      {
+        "id": "open-r1_olympiccoder-7b",
+        "object": "model",
+        "owned_by": "organization_owner"
+      },
+      {
+        "id": "text-embedding-bge-m3-ko",
+        "object": "model",
+        "owned_by": "organization_owner"
+      },
+      {
+        "id": "hamanasu-magnum-qwq-32b-i1",
+        "object": "model",
+        "owned_by": "organization_owner"
+      },
+      {
+        "id": "mlabonne_gemma-3-27b-it-abliterated",
+        "object": "model",
+        "owned_by": "organization_owner"
+      },
+      {
+        "id": "mistral-small-3.1-24b-instruct-2503-hf-imat",
+        "object": "model",
+        "owned_by": "organization_owner"
+      },
+      {
+        "id": "qwen_qwq-32b",
+        "object": "model",
+        "owned_by": "organization_owner"
+      },
+      {
+        "id": "pocketdoc_dans-personalityengine-v1.2.0-24b",
+        "object": "model",
+        "owned_by": "organization_owner"
+      },
+      {
+        "id": "violet_twilight-v0.2",
+        "object": "model",
+        "owned_by": "organization_owner"
+      },
+      {
+        "id": "huihui-ai_mistral-small-24b-instruct-2501-abliterated",
+        "object": "model",
+        "owned_by": "organization_owner"
+      },
+      {
+        "id": "uigen-t1-qwen-7b",
+        "object": "model",
+        "owned_by": "organization_owner"
+      },
+      {
+        "id": "codero1-deepseekr1-coder-14b-preview",
+        "object": "model",
+        "owned_by": "organization_owner"
+      }
+    ],
+    "object": "list"
+  },
+  "timestamp": 1743132441.0032296,
+  "expires_at": 1743136041.0032296
+}

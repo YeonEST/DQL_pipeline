@@ -1,0 +1,19 @@
+# 기본 라이브러리
+streamlit==1.43.2
+pandas==2.2.3
+python-dotenv==1.0.1
+requests==2.32.3
+
+# PDF 처리 라이브러리
+langchain-docling
+langchain-core==0.3.46
+langchain-text-splitters==0.3.7
+
+# 임베딩 모델 라이브러리
+torch==2.5.1+cu121
+torchvision==0.20.1
+transformers==4.49.0
+
+# 벡터 데이터베이스
+qdrant-client==1.13.3
+numpy==2.2.4
